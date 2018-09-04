@@ -18,7 +18,6 @@ setAddon({
             <Menu.Item>
               <Header as="h4">{`${context.kind} - ${storyName}`}</Header>
             </Menu.Item>
-            <Menu.Item position="right" className="page-header__logo" as="i" />
           </Menu>
           <div className="story-container">{storyFn(context)}</div>
         </div>
@@ -36,7 +35,7 @@ setDefaults({
 // misc. options
 setOptions({
   name: 'Storybook demo',
-  url: 'https://storybook-demo.otorrillas.github.io'
+  url: 'https://otorrillas.github.io/storybook-demo/'
 });
 
 addDecorator(withKnobs);
