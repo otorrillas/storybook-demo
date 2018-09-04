@@ -64,8 +64,8 @@ body {
   min-height: 200px;
 }
 
-.story-container > button,
-.story-container > div > button {
+.story-container > div > button,
+.story-container > div > div > button {
   top: auto !important;
   bottom: 0;
 }
