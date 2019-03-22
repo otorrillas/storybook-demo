@@ -28,29 +28,6 @@ body {
 }
 
 .story-container > div:first-child:not(class) > div:first-child:not([class]) {
-  /* checkered bg based on - http://lea.verou.me/css3patterns/#checkerboard */
-  background-image: linear-gradient(
-      45deg,
-      rgba(0, 0, 0, 0.03) 25%,
-      transparent 25%,
-      transparent 75%,
-      rgba(0, 0, 0, 0.03) 75%,
-      rgba(0, 0, 0, 0.03)
-    ),
-    linear-gradient(
-      45deg,
-      rgba(0, 0, 0, 0.03) 25%,
-      transparent 25%,
-      transparent 75%,
-      rgba(0, 0, 0, 0.03) 75%,
-      rgba(0, 0, 0, 0.03)
-    );
-  background-size: 30px 30px;
-  background-position: 0 0, 15px 15px;
-  border-radius: 2px;
-  border: 1px solid rgb(238, 238, 238);
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 3px;
-
   display: flex;
   flex-direction: column;
   align-items: center;
